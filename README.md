@@ -7,7 +7,7 @@ struct GelabertSystems {
     projects: Vec<Project>,
 }
 
-const ME: GelabertSystems = GelabertSystems {
+const MYSELF: GelabertSystems = GelabertSystems {
     pronouns: ("he", "him"),
     location: Country::Spain,
     stack:    Stack {
