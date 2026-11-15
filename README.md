@@ -1,13 +1,23 @@
 ```rs
-let gelabert_systems = Profile {
+#[derive(Developer, Debug, Display)]
+struct GelabertSystems {
+    pronouns: (&'static str, &'static str),
+    location: Country,
+    stack:    Stack,
+    projects: Vec<Project>,
+}
+
+const ME: GelabertSystems = GelabertSystems {
     pronouns: ("he", "him"),
-    country:  Country::Spain,
-    code:     ["x86-64 ASM", "C", "C++", "Rust", "HTML", "CSS", "Javascript", "TypeScript", "PHP", "Java", "C#", "Python"],
-    tools:    ["Node", "Bun", "Astro", "Svelte", "TailwindCSS", "Linux", "Nginx"],
-    projects: [
-        Project { name: "-", url: None, ghUrl: None },
-        Project { name: "-", url: None, ghUrl: None },
-        Project { name: "-", url: None, ghUrl: None },
-    ]
+    location: Country::Spain,
+    stack:    Stack {
+        low_level:   vec!["x86-64 ASM", "C", "C++", "Rust"],
+        web_and_app: vec!["TS", "JS", "Python", "C#", "Java", "PHP", "HTML", "CSS"],
+        tools:       vec!["Linux", "Nginx", "Bun", "Node", "Astro", "Svelte", "TailwindCSS"],
+    },
+    projects: vec![
+        // Work in progress...
+    ],
 };
+
 ```
