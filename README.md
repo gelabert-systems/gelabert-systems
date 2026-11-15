@@ -6,8 +6,8 @@ let gelabert_systems = Profile {
     tools:    ["Node", "Bun", "Astro", "Svelte", "TailwindCSS", "Linux", "Nginx"],
     projects: [
         Project { name: "-", url: None, ghUrl: None },
-        Project { name: "-",          url: None, ghUrl: None },
-        Project { name: "-",         url: None, ghUrl: None },
+        Project { name: "-", url: None, ghUrl: None },
+        Project { name: "-", url: None, ghUrl: None },
     ]
 };
 ```
