@@ -1,16 +1,13 @@
-## Hi there 👋
-
-<!--
-**gelabert-systems/gelabert-systems** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```rs
+let gelabert_systems = Profile {
+    pronouns: ("he", "him"),
+    country:  Country::Spain,
+    code:     ["x86-64 ASM", "C", "C++", "Rust", "HTML", "CSS", "Javascript", "TypeScript", "PHP", "Java", "C#", "Python"],
+    tools:    ["Node", "Bun", "Astro", "Svelte", "TailwindCSS", "Linux", "Nginx"],
+    projects: [
+        Project { name: "-", url: None, ghUrl: None },
+        Project { name: "-",          url: None, ghUrl: None },
+        Project { name: "-",         url: None, ghUrl: None },
+    ]
+};
+```
